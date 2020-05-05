@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  margin-top: 0;
+  margin-top: 50px;
   margin-bottom: 1rem;
 }
 
@@ -92,6 +92,7 @@ abbr[data-original-title] {
   -webkit-text-decoration-skip-ink: none;
   text-decoration-skip-ink: none;
 }
+#text1 { margin-top: 200px; }
 
 address {
   margin-bottom: 1rem;
