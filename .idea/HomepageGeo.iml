@@ -9,5 +9,10 @@
     <orderEntry type="library" name="jquery-3.4.1.slim" level="application" />
     <orderEntry type="library" name="popper.js" level="application" />
     <orderEntry type="library" name="jquery" level="application" />
+    <orderEntry type="library" name="dragula" level="application" />
+    <orderEntry type="library" name="jquery-1.12.4" level="application" />
+    <orderEntry type="library" name="jquery-ui" level="application" />
+    <orderEntry type="library" name="engII_main" level="application" />
+    <orderEntry type="library" name="englishII_main" level="application" />
   </component>
 </module>
