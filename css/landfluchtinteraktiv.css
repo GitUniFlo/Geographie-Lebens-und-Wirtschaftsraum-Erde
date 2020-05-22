@@ -1,0 +1,130 @@
+/* Principe and Code snippets(https://codepen.io/IPSI/full/cgDbu)  by Institute for Public School Initiatives (https://codepen.io/IPSI) */
+body
+{
+    font-family: "Segoe UI", sans-serif ;
+    margin: 0px;
+    padding: 0px;
+}
+
+.clear { clear: both; display: block; }
+.f_right { float: right; }
+.f_left { float: left; }
+.hidden { display: none; }
+
+/* i wanted to be exact */
+.p1 { position: relative; top: 30px; }
+.p2 { position: relative; top: 90px; }
+.p3 { position: relative; top: 130px; }
+.p4 { position: relative; top: 180px; }
+.p5 { position: relative; top: 230px; }
+.p6 { position: relative; top: 290px; }
+
+
+
+#complete
+{
+    border: 2px ridge #78b7d5;
+    width: 780px;
+    height: 975px;
+    padding: 0px;
+    background-color: #ffffff;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#left_side
+{
+    width: 15%;
+    border: 0px solid rgba(35, 118, 35, 0.91);
+    text-align: center !important;
+    float: left;
+    margin: 0px auto 0px auto !important;
+}
+
+#middle_side
+{
+    width: 15%;
+    border: 0px solid #ff0000;
+    text-align: center !important;
+    float: left;
+    margin: 0px auto 0px auto !important;
+}
+
+#right_side
+{
+    width: 68%;
+    border: 0px solid #0000ff;
+    text-align: left;
+    float: right;
+    margin: 0px auto 0px auto !important;
+}
+
+#object1, #object2, #object3, #object4, #object5, #object6
+{
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1em;
+    padding: 0px;
+    margin: 10px auto 0px auto;
+    border-radius: 100%;
+    height: 70px;
+    width: 70px;
+    border: 1px solid #000000;
+}
+
+.numberPad { padding-top: 8px; }
+
+.objectLanded
+{
+    height: 50px;
+    width: 50px;
+    border: 2px dashed #ffffff;
+}
+
+.completeObject
+{
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+    font-size: 2em;
+    padding: 0px;
+    margin: 10px auto 0px auto;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+}
+
+#target1, #target2, #target3, #target4, #target5, #target6
+{
+    background-color: #555555;
+    color: #0b4925;
+    cursor: pointer;
+    text-align: center;
+    border: 4px solid #a0847c;
+    font-size: 1em;
+    padding: 0px;
+    margin: 10px auto 0px auto;
+    border-radius: 100%;
+    height: 70px;
+    width: 70px;
+}
+
+#feedback
+{
+    border: 0px solid #ff0000;
+    float: left;
+    text-align: center;
+    padding: 10px 0px 0px 25%;
+    color: #000000;
+    font-size: 1.4em;
+    width: 70%;
+}
+
+
+
