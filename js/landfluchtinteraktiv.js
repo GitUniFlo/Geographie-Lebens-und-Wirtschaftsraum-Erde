@@ -46,13 +46,13 @@ j(document).ready(function()
     j('#target1').droppable
     ({
         drop: right,
-        accept: '#object4',
+        accept: '#object2',
         //tolerance: intersect
     });
     j('#target2').droppable
     ({
         drop: right,
-        accept: '#object5'
+        accept: '#object3'
     });
     j('#target3').droppable
     ({
@@ -62,12 +62,12 @@ j(document).ready(function()
     j('#target4').droppable
     ({
         drop: right,
-        accept: '#object3'
+        accept: '#object5'
     });
     j('#target5').droppable
     ({
         drop: right,
-        accept: '#object2'
+        accept: '#object4'
     });
 
 });
