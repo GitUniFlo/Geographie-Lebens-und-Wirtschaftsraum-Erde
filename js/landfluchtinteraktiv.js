@@ -1,7 +1,7 @@
 // Principe and Code snippets(https://codepen.io/IPSI/full/cgDbu)  by Institute for Public School Initiatives (https://codepen.io/IPSI)
 
-var objArray = ['#object1', '#object2', '#object3', '#object4', '#object5', '#object6'];
-var targArray = ['#target1', '#target2', '#target3', '#target4', '#target5', '#target6'];
+var objArray = ['#object1', '#object2', '#object3', '#object4', '#object5'];
+var targArray = ['#target1', '#target2', '#target3', '#target4', '#target5'];
 var startDrag = new String;
 var resetter = 0;
 //var draggable = ui.draggable;
@@ -15,7 +15,7 @@ var j = jQuery.noConflict();
 j(document).ready(function()
 {
 //draggin
-    j('#object1, #object2, #object3, #object4, #object5, #object6').draggable
+    j('#object1, #object2, #object3, #object4, #object5').draggable
     ({
         start: function(event,ui) { startDrag = ui.position; },
         containment: '#main',
@@ -42,7 +42,7 @@ j(document).ready(function()
 //         <div class="p3">Push-Ein krankes Kind benötigt lebensrettende medizinische Maßnahmen, die nur in großen Städten zur Verfügung stehen.</div>
 //         <div class="p4">Push-Ein starkes Erdbeben zerstörte viele Häuser und viele Familien verlieren ihr Zuhause.</div>
 //         <div class="p5">Pull- Ein Land erfährt eine lange Friedensperiode.</div>
-//         <div class="p6">Push-Ein Vater wünscht sich eine bessere Auswaahl an Bildungsmöglichkeiten für seine Kinder.</div>
+
     j('#target1').droppable
     ({
         drop: right,
@@ -62,17 +62,12 @@ j(document).ready(function()
     j('#target4').droppable
     ({
         drop: right,
-        accept: '#object6'
+        accept: '#object3'
     });
     j('#target5').droppable
     ({
         drop: right,
         accept: '#object2'
-    });
-    j('#target6').droppable
-    ({
-        drop: right,
-        accept: '#object3'
     });
 
 });
@@ -93,7 +88,7 @@ function right(event, ui)
     draggable.css('background-color','#416127');
 
     resetter++;
-    if (resetter == 6)
+    if (resetter == 5)
     {
         j('#feedback').html('<span class="greentext">Super alles richtig zugewiesen! <a href="../htlmfiles/3_2_Landflucht%20-%20Interaktiv.html">Neustart!</a></span>');
     }
