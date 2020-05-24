@@ -1,3 +1,5 @@
+<!-- Code Snippet from https://www.w3schools.com/howto/howto_css_modals.asp-->
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -6,9 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" >
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Lebens und Wirtschaftsraum Erde</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
+    <link rel='stylesheet' href='https://ontrack-media.net/english2/css/engII_main.css'><link rel="stylesheet" href="../css/gunstungunst.css">
 
     <title>Geography-Lebens_und_Wirtschaftsraum_Erde</title>
 </head>
@@ -19,21 +22,126 @@
     <a class="col" style="background-color: white; "><h2>Lebens und Wirtschaftsraum Erde</h2></a>
 </nav>
 <br>
-<h2>1. Gunst/Ungunsträume_Interaktive Karte</h2>
-<img class="img-fluid img-thumbnail" src="../images/1_InterEdited.png" alt="a">
+<div class="container">
+    <a class="list-group-item list-group"><h2>1. Gunst/Ungunsträume_Interaktive Karte</h2> </a>
+    <img class="img-fluid img-thumbnail" src="../images/1_Inter.png" alt="a">
+</div>
+
+
+
 <!-- Quelle(Ursprung) :  Public domain	https://de.wikipedia.org/wiki/Anökumene#/media/Datei:Ökumene-Subökumene-Anökumene.png-->
+
+<button id="btn1" class="button button1">1</button>
+<button id="btn2" class="button button2">2</button>
+<button id="btn3" class="button button3">3</button>
+<button id="btn4" class="button button4">4</button>
+<button id="btn5" class="button button5">5</button>
+<button id="btn6" class="button button6">6</button>
+<button id="btn7" class="button button7">7</button>
+<button id="btn8" class="button button8">8</button>
+
+<!-- The Modal -->
+<div id="myModal1" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <p><h2>1: Ungunstraum Atacama Salzwüste</h2></p>
+        <img src="../images/E_IK_7.jpg" alt="Ungunstraum Atacama Salzwüste" height="350px" width="350px" />
+        <span class="close">&times;</span>
+    </div>
+</div>
+
+<div id="myModal2" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <p>2: Übergangsbereich Amazonas Regenwald</p>
+        <img src="../images/E_IK_8.jpg" alt="Ungunstraum Atacama Salzwüste" height="350px" width="350px" />
+        <span class="close2">&times;</span>
+
+    </div>
+
+</div>
+<div id="myModal3" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <p>3: Gunstraum Großraum Los Angeles</p>
+        <img src="../images/E_IK_9.jpg" alt="Gunstraum Großraum Los Angeles" height="350px" width="350px" />
+        <span class="close3">&times;</span>
+
+    </div>
+
+</div>
+<div id="myModal4" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <p>4: Gunstraum Wiener Becken</p>
+        <img src="../images/E_IK_10.jpg" alt="Gunstraum Wiener Becken" height="350px" width="350px" />
+        <span class="close4">&times;</span>
+
+    </div>
+
+</div>
+<div id="myModal5" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <p>5: Ungunstraum Himalaya Hochgebirge</p>
+        <img src="../images/E_IK_11.jpg" alt="Ungunstraum Himalaya Hochgebirge" height="350px" width="350px" />
+        <span class="close5">&times;</span>
+
+    </div>
+
+</div>
+<div id="myModal6" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <p>6: Übergangsbereich Namib Küstenwüste</p>
+        <img src="../images/E_IK_12.jpg" alt="Übergangsbereich Namib Küstenwüste" height="350px" width="350px" />
+        <span class="close6">&times;</span>
+
+    </div>
+
+</div>
+<div id="myModal7" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <p>7: Übergangsbereich Große Sandwüste</p>
+        <img src="../images/E_IK_13.jpg" alt="Übergangsbereich Große Sandwüste" height="350px" width="350px" />
+        <span class="close7">&times;</span>
+
+    </div>
+
+</div>
+<div id="myModal8" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <p>8: Ungunstraum Antarktis Eiswüste </p>
+        <img src="../images/E_IK_14.jpg" alt="Ungunstraum Antarktis Eiswüste" height="350px" width="350px" />
+        <span class="close8">&times;</span>
+
+    </div>
+
+</div>
+
+
 <footer class="fixed-bottom">
     <div class="container text-center">
         <a class="btn-light btn-lg" href="1_Gunst-%20und%20Ungunsträume.html" role="button">Zurück (1.Gunst- und Ungunsträume)</a>
         <a class="btn-light btn-lg" href="1_1_Österreich%20–%20Hochgebirge.html" role="button">Weiter (1.1.Österreich – Hochgebirge)</a>
     </div>
-    </nav>
-
 </footer>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script  src="../js/gunstungunst.js"></script>
+
 </body>
 </html>
