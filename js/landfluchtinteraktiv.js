@@ -2,7 +2,7 @@
 
 var objArray = ['#object1', '#object2', '#object3', '#object4', '#object5'];
 var targArray = ['#target1', '#target2', '#target3', '#target4', '#target5'];
-var startDrag = new String;
+var startDrag = String;
 var resetter = 0;
 //var draggable = ui.draggable;
 
@@ -46,7 +46,7 @@ j(document).ready(function()
     j('#target1').droppable
     ({
         drop: right,
-        accept: '#object2',
+        accept: '#object2'
         //tolerance: intersect
     });
     j('#target2').droppable
@@ -59,6 +59,7 @@ j(document).ready(function()
         drop: right,
         accept: '#object1'
     });
+
     j('#target4').droppable
     ({
         drop: right,

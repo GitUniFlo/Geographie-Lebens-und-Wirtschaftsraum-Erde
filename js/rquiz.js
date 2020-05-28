@@ -1,5 +1,5 @@
 /********************************************************
-* R-Quiz - JavaScript-Framework for interactive quizzes *
+* R-Quiz - JavaScript-Framework for interactive quizzesR-Quiz - JavaScript-Framework for interactive quizzes *
 *********************************************************
 *
 * V 3.0 (2017/05/01)
@@ -3019,7 +3019,7 @@
 				 * t.target element. */
 				var m = p.getAttribute("data-match");
 
-				if (p.parentNode.getAttribute("data-match") != m) {
+				if (p.parentNode.getAttribute("data-match") !== m) {
 					// wrong! go back!
 					backToPool.push(p);
 					withErrors = true;
@@ -3034,7 +3034,7 @@
 				// we might have more than one valid solution
 				q.each(i.solutions, function (s) {
 
-					if (v == s) {
+					if (v === s) {
 						ok = true;
 					}
 				});
@@ -3099,7 +3099,7 @@ console.dir(i);
 			if (t.highlightElm) {
 
 				while (t.highlightElm.firstChild
-					&& t.highlightElm != t.pool
+					&& t.highlightElm !== t.pool
 				) {
 					t.pool.appendChild(t.highlightElm.firstChild);
 				}
@@ -3108,7 +3108,7 @@ console.dir(i);
 			}
 
 			// remove t.resultButton from t.pool
-			if (t.resultButton.parentNode == t.pool) {
+			if (t.resultButton.parentNode === t.pool) {
 				t.pool.removeChild(t.resultButton);
 			}
 
