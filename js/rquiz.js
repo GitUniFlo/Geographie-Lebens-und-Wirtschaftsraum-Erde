@@ -88,7 +88,7 @@
 				allFound: "Alle Sets found!",
 				attemptLastTime: "Das letzte Mal hatten Sie nur einen Versuch benötigt.",
 				attemptsLastTime: "Das letzte Mal hatten Sie %n Versuche benötigt.",
-				check: "prüfen!",
+				check: "Überprüfen!",
 				endOfQuiz: "Quiz ist zuende.",
 				enter: "eintragen",
 				enterNotice: "Benutzen Sie zur Eingabe die Tastatur. Eventuell müssen sie zuerst ein Eingabefeld durch Anklicken aktivieren.",
