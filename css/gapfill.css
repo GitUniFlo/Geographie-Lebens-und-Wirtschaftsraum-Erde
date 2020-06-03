@@ -46,7 +46,7 @@
     }
 
     .rquiz-gapfill .rquiz-target {
-        background: #efe;
+        background: #797979;
         border: 1px dashed #0c0;
         display: inline-block;
         min-height: 2em;
@@ -116,7 +116,7 @@
     }
 
     .rquiz-piece.rquiz-draggable {
-        background: #efc;
+        background: #fffdfd;
         box-shadow: 0 0 5px 0 #888;
         margin: 5px;
         cursor: move;
