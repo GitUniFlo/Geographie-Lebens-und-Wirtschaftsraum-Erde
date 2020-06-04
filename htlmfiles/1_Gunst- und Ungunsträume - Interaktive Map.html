@@ -12,13 +12,11 @@ SOFTWARE LICENSE: LGPL  - Lizenz im Ordner vorhanden
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Bootstrap CSS -->
     <title>Lebens und Wirtschaftsraum Erde</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel='stylesheet' href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
-    <link rel='stylesheet' href='https://ontrack-media.net/english2/css/engII_main.css'><link rel="stylesheet" href="../css/gunstungunst.css">
-
+    <link rel='stylesheet' href='https://ontrack-media.net/english2/css/engII_main.css'><link rel="stylesheet" href="../css/gapfillGunstUngunst.css">
     <title>Geography-Lebens_und_Wirtschaftsraum_Erde</title>
 </head>
 <body>
@@ -29,14 +27,19 @@ SOFTWARE LICENSE: LGPL  - Lizenz im Ordner vorhanden
 </nav>
 <br>
 <div class="container">
+
     <a class="list-group-item list-group"><h2>1. Gunst/Ungunsträume_Interaktive Karte</h2> </a>
-    <img class="img-fluid img-thumbnail" src="../images/1_Inter.png" alt="a">
-    <p><b>Legende: </b> <b>Rot: </b> Übergangsbereiche - <b>Grün: </b> Gunsträume - <b>Schwarz: </b> Ungunsträume - <b>1-8: </b> Gunst/Ungunsträume </p><br>
-    <p>Exakte Positionen bei 1920x1020 Auflösung und Firefox</p>
+    <img class="img-fluid img-thumbnail" src="../images/1_Inter-1.png" alt="a">
+
+<div class="rquiz-gapfill" lang="en">
+
+    <p id="hinweis"><span style="font-weight: bold; ">Hinweis:</span> Klicke auf die Zahl. Finde heraus um was für ein Gebiet es sich handelt und ziehe es in die richtige Box. <br>
+    (Tipp:  Es stehen immer 5 Eigenschaften der jewiligen Zone als Hilfe dabei.)</p>
+    <p><span style="font-weight: bold; ">Ungunsträume: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Atacama Salzwüste:  <strong> 1</strong> ---  Himalaya Hochgebirge:  <strong>5</strong> ---  Antarktis Eiswüste:  <strong> 8</strong></p>
+    <p><span style="font-weight: bold; ">Gunsträume: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Wiener Becken:  <strong> 4</strong> ---  Großraum Los Angeles:  <strong> 3</strong>
+    <p><span style="font-weight: bold; ">Übergangsbereiche: </span>Große Sandwüste:  <strong> 7</strong>  --- Amazonas Regenwald: <strong> 2</strong> ---  Namib Küstenwüste:  <strong> 6</strong> </p>
 </div>
-
-
-
+</div>
 <!-- Quelle(Ursprung) :  Public domain	https://de.wikipedia.org/wiki/Anökumene#/media/Datei:Ökumene-Subökumene-Anökumene.png-->
 
 <button id="btn1" class="button button1">1</button>
@@ -53,9 +56,17 @@ SOFTWARE LICENSE: LGPL  - Lizenz im Ordner vorhanden
 
     <!-- Modal content -->
     <div class="modal-content">
-        <p><h2>1: Ungunstraum Atacama Salzwüste</h2></p>
+        <p><h2>1:</h2></p>
         <img src="../images/E_IK_7.jpg" alt="Ungunstraum Atacama Salzwüste" height="350px" width="350px" />
         <!-- https://pixabay.com/de/photos/salzsee-salz-mineralien-594609/ -->
+        <p>
+            <b>Eigenschaften: </b> <br>
+            Salzig -
+            Trocken -
+            Anden -
+            Wenig Tiere und Pflanzen -
+            Südamerika
+        </p>
         <span class="close">&times;</span>
     </div>
 </div>
@@ -64,9 +75,17 @@ SOFTWARE LICENSE: LGPL  - Lizenz im Ordner vorhanden
 
     <!-- Modal content -->
     <div class="modal-content">
-        <p><h2>2: Übergangsbereich Amazonas Regenwald</h2></p>
-        <img src="../images/E_IK_8.jpg" alt="Ungunstraum Atacama Salzwüste" height="350px" width="350px" />
+        <p><h2>2:</h2></p>
+        <img src="../images/E_IK_8.jpg" alt="Amazonas" height="350px" width="350px" />
         <!-- https://de.wikipedia.org/wiki/Amazonas-Regenwald#/media/Datei:Amazon_CIAT_(2).jpg -->
+        <p>
+            <b>Eigenschaften: </b> <br>
+            Dschungel -
+            Warm und feucht -
+            Artenvielfalt -
+            Holzwirtschaft -
+            Ureinwohner
+        </p>
         <span class="close2">&times;</span>
     </div>
 </div>
@@ -74,9 +93,17 @@ SOFTWARE LICENSE: LGPL  - Lizenz im Ordner vorhanden
 
     <!-- Modal content -->
     <div class="modal-content">
-        <p><h2>3: Gunstraum Großraum Los Angeles</h2></p>
+        <p><h3>3:</h3></p>
         <img src="../images/E_IK_9.jpg" alt="Gunstraum Großraum Los Angeles" height="350px" width="350px" />
         <!-- https://www.pexels.com/de-de/foto/los-angeles-vogelperspektive-582009/ -->
+        <p>
+            <b>Eigenschaften: </b> <br>
+            Firmen -
+            Wohnhäuser -
+            Wolkenkratzer -
+            Sonnig -
+            Pazifik
+        </p>
         <span class="close3">&times;</span>
     </div>
 </div>
@@ -84,9 +111,18 @@ SOFTWARE LICENSE: LGPL  - Lizenz im Ordner vorhanden
 
     <!-- Modal content -->
     <div class="modal-content">
-        <p><h2>4: Gunstraum Wiener Becken</h2></p>
+        <p><h2>4:</h2></p>
         <img src="../images/E_IK_10.jpg" alt="Gunstraum Wiener Becken" height="350px" width="350px" />
         <!-- https://www.flickr.com/photos/133314796@N05/35574364160-->
+        <p>
+            <b>Eigenschaften: </b> <br>
+            Hauptstadt -
+            Donau -
+            4 Jahreszeiten -
+            Europa -
+            Siedlungsraum
+
+        </p>
         <span class="close4">&times;</span>
     </div>
 </div>
@@ -94,9 +130,18 @@ SOFTWARE LICENSE: LGPL  - Lizenz im Ordner vorhanden
 
     <!-- Modal content -->
     <div class="modal-content">
-        <p><h2>5: Ungunstraum Himalaya Hochgebirge</h2></p>
+        <p><h2>5:</h2></p>
         <img src="../images/E_IK_11.jpg" alt="Ungunstraum Himalaya Hochgebirge" height="350px" width="350px" />
         <!-- https://pixabay.com/de/photos/himalaya-berge-landschaft-vista-81244/ -->
+        <p>
+            <b>Eigenschaften: </b> <br>
+            Schnee -
+            Eis -
+            Kalt -
+            Hoch -
+            Gebirge -
+
+        </p>
         <span class="close5">&times;</span>
     </div>
 </div>
@@ -104,9 +149,18 @@ SOFTWARE LICENSE: LGPL  - Lizenz im Ordner vorhanden
 
     <!-- Modal content -->
     <div class="modal-content">
-        <p><h2>6: Übergangsbereich Namib Küstenwüste</h2></p>
+        <p><h2>6:</h2></p>
         <img src="../images/E_IK_12.jpg" alt="Übergangsbereich Namib Küstenwüste" height="350px" width="350px" />
         <!-- https://pixabay.com/de/photos/afrika-namibia-landschaft-1170038/  -->
+        <p>
+            <b>Eigenschaften: </b> <br>
+            Heiß -
+            Trocken -
+            Sand -
+            Atlantik -
+            Südhalbkugel -
+
+        </p>
         <span class="close6">&times;</span>
     </div>
 </div>
@@ -114,9 +168,18 @@ SOFTWARE LICENSE: LGPL  - Lizenz im Ordner vorhanden
 
     <!-- Modal content -->
     <div class="modal-content">
-        <p><h2>7: Übergangsbereich Große Sandwüste</h2></p>
+        <p><h2>7:</h2></p>
         <img src="../images/E_IK_13.jpg" alt="Übergangsbereich Große Sandwüste" height="350px" width="350px" />
         <!-- https://pixabay.com/de/photos/australien-wüste-rot-trocken-natur-2637053/ -->
+        <p>
+            <b>Eigenschaften: </b> <br>
+            Australien -
+            Sand -
+            Heiß -
+            Trocken -
+            Ureinwohner -
+
+        </p>
         <span class="close7">&times;</span>
     </div>
 </div>
@@ -124,9 +187,18 @@ SOFTWARE LICENSE: LGPL  - Lizenz im Ordner vorhanden
 
     <!-- Modal content -->
     <div class="modal-content">
-        <p><h2>8: Ungunstraum Antarktis Eiswüste </h2></p>
+        <p><h2>8:</h2></p>
         <img src="../images/E_IK_14.jpg" alt="Ungunstraum Antarktis Eiswüste" height="350px" width="350px" />
         <!-- https://www.pexels.com/de-de/foto/kalt-natur-eis-tiere-48814/  -->
+        <p>
+            <b>Eigenschaften: </b> <br>
+            Eis -
+            Schnee -
+            Südpol -
+            Forschungsstationen -
+            Eisberge
+
+        </p>
         <span class="close8">&times;</span>
     </div>
 </div>
@@ -143,7 +215,7 @@ SOFTWARE LICENSE: LGPL  - Lizenz im Ordner vorhanden
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="../js/rquiz.js"></script>
 <script  src="../js/gunstungunst.js"></script>
-
 </body>
 </html>
